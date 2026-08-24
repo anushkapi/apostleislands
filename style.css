@@ -1,0 +1,168 @@
+/* Apostle Islands National Lakeshore - geology class project
+   Plain, traditional site styling. Times New Roman, white background. */
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 10px 24px 40px 24px;
+}
+
+.sitetitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 22px 0 2px 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 16px;
+    color: #333333;
+}
+
+.navbar {
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 4px;
+    background-color: #f0efe6;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.navbar a {
+    margin: 0 8px;
+    color: #0000EE;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.navbar a:visited { color: #551A8B; }
+
+h1 {
+    font-size: 24px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 3px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 17px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0 0 14px 0;
+}
+
+li { font-size: 17px; line-height: 1.7; }
+
+a { color: #0000EE; }
+a:visited { color: #551A8B; }
+
+hr {
+    border: none;
+    border-top: 1px solid #999999;
+    margin: 26px 0;
+}
+
+table.figure {
+    border: 1px solid #999999;
+    background-color: #fafaf5;
+    margin: 20px auto;
+    padding: 8px;
+    max-width: 640px;
+}
+
+table.figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+}
+
+.caption {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 6px;
+    color: #222222;
+}
+
+.source {
+    font-size: 9px;
+    color: #666666;
+    text-align: center;
+    display: block;
+    margin-top: 3px;
+    word-break: break-all;
+}
+
+.factbox {
+    border: 1px solid #999999;
+    background-color: #f7f6ee;
+    padding: 12px 18px;
+    margin: 18px 0;
+}
+
+.factbox table { font-size: 15px; border-collapse: collapse; width: 100%; }
+.factbox td { padding: 3px 6px; vertical-align: top; }
+.factbox td.label { font-weight: bold; width: 42%; }
+
+.strata-table {
+    border-collapse: collapse;
+    margin: 18px auto;
+    width: 100%;
+    max-width: 560px;
+    border: 1px solid #666666;
+}
+
+.strata-table td {
+    border: 1px solid #666666;
+    padding: 9px 10px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.strata-table td.unit { font-weight: bold; width: 55%; }
+.strata-table td.age { width: 45%; }
+
+.pagefoot {
+    font-size: 11px;
+    text-align: center;
+    color: #555555;
+    margin-top: 46px;
+    border-top: 1px solid #999999;
+    padding-top: 12px;
+}
+
+.backtotop { text-align: center; font-size: 12px; margin-top: 10px; }
+
+blockquote {
+    font-style: italic;
+    margin: 16px 30px;
+    font-size: 16px;
+    color: #333333;
+    border-left: 3px solid #999999;
+    padding-left: 14px;
+}
